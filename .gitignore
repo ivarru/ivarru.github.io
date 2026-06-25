@@ -1,0 +1,21 @@
+# Generated HTML and assets by Hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+
+# Build locks and temporary files
+.hugo_build.lock
+/tmp/
+
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Local environment variables and developer tools
+.env
+.env.*
+.DS_Store
+Thumbs.db

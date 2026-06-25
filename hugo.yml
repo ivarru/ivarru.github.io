@@ -1,0 +1,31 @@
+baseURL: 'https://ivarru.github.io/'
+title: 'Incipient homepage/blog of Ivar Rummelhoff'
+theme: 'hugo-classless'
+
+timeZone: Europe/Oslo
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    # We use en-CA instead of en-US for YYYY-MM-DD and (ideally) 24 hour clock.
+    label: English
+    locale: en-CA
+    contentDir: content/en
+    weight: 1
+
+  nb:
+    label: Norsk
+    locale: nb-NO
+    contentDir: content/nb
+    weight: 2
+
+params:
+  date_format: "2006-01-02"
+  time_format: "15:04"
+  datetime_format: "2006-01-02 15:04"
+
+  # These are conventions for your own templates or theme.
+  # Hugo itself does not automatically act on these values.
+  measurement_system: metric
+  first_day_of_week: 1
