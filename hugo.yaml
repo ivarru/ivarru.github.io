@@ -42,3 +42,7 @@ menu:
     - name: "Home"
       pageRef: "/"
       weight: 10
+
+caches:
+  images:
+    dir: :cacheDir/images
