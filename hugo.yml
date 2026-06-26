@@ -29,3 +29,16 @@ params:
   # Hugo itself does not automatically act on these values.
   measurement_system: metric
   first_day_of_week: 1
+
+  author: "Ivar Rummelhoff"
+  description: "A personal website"
+
+  themeBase: "css/water.min.css"
+  themeLight: "css/water-light.min.css"
+  themeDark: "css/water-dark.min.css"
+
+menu:
+  main:
+    - name: "Home"
+      pageRef: "/"
+      weight: 10
